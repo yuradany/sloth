@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body
+{
+    background: #333333;
+    margin: 0px;
+    font-size: 0.9em;
+    font-family: Verdana;    
+}
+#main
+{
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    background-image: url(img/fon2.jpg);     
+}
+table
+{
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+tr,td,caption
+{
+    border: 1px solid #b4b3b3;
+    font: 0.9em Verdana; 
+    padding: 4px;
+}
+td
+{
+    width: 100px;
+}
+#but
+{
+margin: 10px;    
+}
+.text
+{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;   
+}
+.info
+{ font: 0.7em Verdana;
+  color: #666666;
+  padding: 10px;}
+
+.buthref{margin: 10px;}
+.buthref a:visited{color: blue;}
+.buthref a:hover{color: #6d4595}
+
+.itempage{
+    margin: 10px;
+    font-size: 18px}
+.itempage a 
+{text-decoration: none;
+ color: #bf1a35;
+ ;
+}
+
+select{margin: 10px;}
+
+#windimg
+{ width: 400px;
+  height: 600px;
+  float: right;
+  background-image: url(img/fon4.jpg);
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 0px;}
+
+#windinfo
+{
+    margin: 70px;
+    margin-left: 100px;
+}
+
+/*опис головної таблиці, зокрема ширини*/
+.maintable {width:600px; float: left; margin-top: 30px;}
+caption {margin-top: 10px; font-size: 0.8em; border-bottom: none;}
+.tday {width: 5%; font-weight: bold;}
+.tdate{width: 15%; font-weight: bold;}
+.ttask{width: 20%; font-weight: bold;}
+.tstat{width: 15%; font-weight: bold;}
+.trating{width: 35%; font-weight: bold;}
+/*закінчення опису головної таблиці*/
+/*опис таблиці завдань, зокрема ширини*/
+#tasktable{width:600px;}
+.tcategory{width: 15%; font-weight: bold;}
+.tdtask{width: 65%; font-weight: bold;}
+.tdstat{width: 10%; font-weight: bold;}
+.tamount{width: 10%; font-weight: bold;}
+.tdall{font-weight: bold; text-align: right; border: none}
+/*закінчення опису таблиці завдань*/
+/*опис стовпців підсумків, зокрема ширини*/
+#resulttable{width:600px;}
+#rtable{padding-top: 10px;}
+.trdate{width: 20%; font-weight: bold;}
+.trtask{width: 35%; font-weight: bold;}
+.trcategory{width:20%; font-weight: bold;}
+.trstat{width: 10%; font-weight: bold;}
+.tramount{width: 15%; font-weight: bold;}
+#textmark{width: 70%; font-weight: bold;}
+/*закінчення опису таблиці підсумків*/
+
